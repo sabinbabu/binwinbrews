@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+.hero {
+  height: 90vh;
+  position: relative;
+}
+
+.hero video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero_text {
+  position: absolute;
+  top: calc(40%);
+  left: calc(30%);
+  background: rgba(155, 154, 154, 0.286);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+
+  text-align: center;
+  padding: 2rem;
+  width: 30%;
+}
+
+.down {
+  font-size: 5rem;
+  color: orangered;
+  position: absolute;
+  left: 45%;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  animation: down 0.5s infinite;
+}
+
+@keyframes down {
+  0% {
+    left: 45%;
+    bottom: 5rem;
+  }
+
+  100% {
+    left: 45%;
+    bottom: 1rem;
+  }
+}
