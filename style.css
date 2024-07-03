@@ -192,6 +192,10 @@ nav {
     height: 20vh;
     background-repeat: space;
   }
+
+  .parallax_image1 {
+    background-repeat: round;
+  }
 }
 
 footer p {
