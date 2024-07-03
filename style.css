@@ -189,8 +189,8 @@ nav {
   .parallax_image4,
   .parallax_image5 {
     background-size: contain;
-    height: 10vh;
-    background-repeat: round;
+    height: 20vh;
+    background-repeat: space;
   }
 }
 
