@@ -153,7 +153,7 @@ nav {
 }
 
 .parallax_image1 {
-  background: url(./assets/adi-goldstein-xKS-1DP4g7A-unsplash.jpg) no-repeat;
+  background: url(./assets/joy-hayman-36EMSp9sAtQ-unsplash.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -191,10 +191,6 @@ nav {
     background-size: contain;
     height: 20vh;
     background-repeat: space;
-  }
-
-  .parallax_image1 {
-    background-repeat: round;
   }
 }
 
