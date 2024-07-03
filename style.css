@@ -190,6 +190,7 @@ nav {
   .parallax_image5 {
     background-size: contain;
     background-repeat: repeat;
+    background-attachment: fixed;
     height: 25vh;
   }
 }
